@@ -79,7 +79,7 @@ if (isset($_POST["submit"])) {
             <?php
                 }
             }
-
+ 
             ?>
             <div>
                 <button type="submit" name="submit" class="btn">Update Profile</button>
