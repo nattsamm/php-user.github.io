@@ -1,8 +1,8 @@
 <?php
-$server = "localhost";
+$server = "localhost:3306";
 $user = "root";
 $pass = "";
-$database = "reg";
+$database = "loginsystem";
 
 $conn = mysqli_connect($hostname, $username, $password, $database) or die("Database connection failed");
 
