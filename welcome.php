@@ -52,8 +52,8 @@ if (isset($_POST["submit"])) {
     <div class="wrapper">
         <h2>Profile</h2>
         <form action="" method="post" enctype="multipart/form-data">
-            <?php 
-            
+            <?php
+
             $sql = "SELECT * FROM users WHERE id='{$_SESSION["user_id"]}'";
             $result = mysqli_query($conn, $sql);
             if (mysqli_num_rows($result) > 0) {
